@@ -1,0 +1,30 @@
+.input-group .ng-valid.ng-dirty {
+    border: solid 1px green;
+}
+
+.input-group .ng-invalid.ng-dirty {
+    border: solid 1px red;
+}
+
+.greetName {
+    margin-left: 5%;
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: #111111;
+}
+
+.head-list {
+    margin-left: 5%;
+    font-size: 2em;
+}
+
+body {
+    background-color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+todo-title {
+    text-align: center;
+    font-size: 2em;
+}

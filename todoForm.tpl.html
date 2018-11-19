@@ -1,0 +1,15 @@
+<form name="TodoForm" ng-submit="add(newTodoTitle)">
+    <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+            <div class="input-group-text">
+            <input type="checkbox" ng-model="todo.completed">
+            </div>
+        </div> -->
+        <input class="form-control" type="text" ng-model="newTodoTitle" placeholder="Type new TODO" autofocus minlength="3">
+        <button class="btn btn-info" type="submit">Add</button>
+    </div>
+
+    <div ng-show="TodoForm.$dirty && TodoForm.$invalid">
+        <div class="alert alert-warning" role="alert"> title 3 more</div>
+    </div>
+</form>
